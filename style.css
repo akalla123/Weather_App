@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(rgb(47, 150,163), rgb(46, 62, 143));
+	font-family: Aclonica;
+	color: white;
+	font-weight: bold;
+}
+.date{
+	padding-bottom: 30px;
+	font-family: Aclonica;
+	font-size: 30px;
+}
+
+.location{
+	height: 10vh; 
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.temperature{
+	height: 30vh; 
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.degree-section{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.degree-section span{
+	font-size: 50px;
+	margin: 10px;
+}
+.degree-section h2{
+	font-size: 50px;
+}
+.temperature-description{
+	font-size: 30px;
+	font-family: Aclonica;
+}
+.week_data_day, .week_data_temp{
+	display: flex;
+	justify-content: space-around;
+}
+.week_day, .week_temp, .week_des{
+	padding-left: 50px;
+	text-align: center;
+	padding-top: 5px;
+}
